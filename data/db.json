@@ -1,0 +1,157 @@
+{
+  "users": [
+    {
+      "name": "Jordan Lee",
+      "email": "test.user.1790400194564@example.com",
+      "role": "INVENTORY_MANAGER",
+      "passwordHash": "$2a$10$0oi02mCV1fK2LXcMnlrBquwbSe/bRD7Z6xerwxf.fwdQbuPayh9O6",
+      "id": "usr_1790400194807_1mk2b81",
+      "createdAt": "2026-09-26T05:23:14.806Z",
+      "updatedAt": "2026-09-26T05:23:15.081Z"
+    },
+    {
+      "name": "Middleware Tester",
+      "email": "midtester@example.com",
+      "role": "WAREHOUSE_STAFF",
+      "passwordHash": "$2a$10$PDGHBpgsVEDDZwKrGLx8guW1DuHpVUeFbOo5q9O.X77OcOOm2CONe",
+      "id": "usr_1790400227311_x5gn3lb",
+      "createdAt": "2026-09-26T05:23:47.311Z",
+      "updatedAt": "2026-09-26T05:23:47.311Z"
+    },
+    {
+      "name": "rehan",
+      "email": "rehan.d.3011@gmail.com",
+      "role": "INVENTORY_MANAGER",
+      "passwordHash": "$2a$10$STuNGdqSUOcnoyJrJRYfu.fDgPsuHKpsUAAznDCCSlQK8ZXlHUSS6",
+      "id": "usr_1790400354724_wgmt1kc",
+      "createdAt": "2026-09-26T05:25:54.724Z",
+      "updatedAt": "2026-09-26T05:25:54.724Z"
+    },
+    {
+      "name": "Jordan Lee",
+      "email": "test.user.1790400985930@example.com",
+      "role": "INVENTORY_MANAGER",
+      "passwordHash": "$2a$10$0Ijk3zSXtVCBmimaUGDPRuFcZR7CUq2WYOQh1g3k57uT6fIWsjy7W",
+      "id": "usr_1790400986185_5wksnpu",
+      "createdAt": "2026-09-26T05:36:26.184Z",
+      "updatedAt": "2026-09-26T05:36:26.462Z"
+    },
+    {
+      "name": "newtest",
+      "email": "newtest@gmail.com",
+      "role": "INVENTORY_MANAGER",
+      "passwordHash": "pending_initial_otp_setup",
+      "id": "usr_1790402574171_imov1jn",
+      "createdAt": "2026-09-26T06:02:54.171Z",
+      "updatedAt": "2026-09-26T06:02:54.171Z"
+    },
+    {
+      "name": "rehan",
+      "email": "srinivasmiryalkar861@gmail.com",
+      "role": "INVENTORY_MANAGER",
+      "passwordHash": "$2a$10$nJmeNNPr9IHmM.39PQwsqeO11jgkriCo4VRoOQvmW3qcVTzG6LnXi",
+      "id": "usr_1790404799492_okljsb6",
+      "createdAt": "2026-09-26T06:39:59.492Z",
+      "updatedAt": "2026-09-26T06:39:59.492Z"
+    },
+    {
+      "name": "rehan",
+      "email": "noused20@gmail.com",
+      "role": "INVENTORY_MANAGER",
+      "passwordHash": "$2a$10$xryg6zXNqwGS79zNGkfk0.bNlzZ2aEFN3deI9sgR5ebJU1dit575S",
+      "id": "usr_1790405000384_63287o8",
+      "createdAt": "2026-09-26T06:43:20.384Z",
+      "updatedAt": "2026-09-26T06:43:20.384Z"
+    }
+  ],
+  "otps": [
+    {
+      "id": "otp_1790400194978_3q8fmd",
+      "email": "test.user.1790400194564@example.com",
+      "otp": "185012",
+      "createdAt": 1790400194978,
+      "expiresAt": 1790400794978,
+      "used": true
+    },
+    {
+      "id": "otp_1790400401751_h1ibmw",
+      "email": "rehan.d.3011@gmail.com",
+      "otp": "877118",
+      "createdAt": 1790400401751,
+      "expiresAt": 1790401001751,
+      "used": true
+    },
+    {
+      "id": "otp_1790400557953_9mfbak",
+      "email": "rehan.d.3011@gmail.com",
+      "otp": "707510",
+      "createdAt": 1790400557953,
+      "expiresAt": 1790401157953,
+      "used": true
+    },
+    {
+      "id": "otp_1790400986358_9nt1ph",
+      "email": "test.user.1790400985930@example.com",
+      "otp": "911268",
+      "createdAt": 1790400986358,
+      "expiresAt": 1790401586358,
+      "used": true
+    },
+    {
+      "id": "otp_1790401563641_j3z1fd",
+      "email": "rehan.d.3011@gmail.com",
+      "otp": "299631",
+      "createdAt": 1790401563641,
+      "expiresAt": 1790402163641,
+      "used": true
+    },
+    {
+      "id": "otp_1790402057255_g1wskq",
+      "email": "rehan.d.3011@gmail.com",
+      "otp": "751348",
+      "createdAt": 1790402057255,
+      "expiresAt": 1790402657255,
+      "used": true
+    },
+    {
+      "id": "otp_1790402094082_7lo01l",
+      "email": "rehan.d.3011@gmail.com",
+      "otp": "392257",
+      "createdAt": 1790402094082,
+      "expiresAt": 1790402694082,
+      "used": true
+    },
+    {
+      "id": "otp_1790402574175_21jgnp",
+      "email": "newtest@gmail.com",
+      "otp": "344638",
+      "createdAt": 1790402574175,
+      "expiresAt": 1790403174175,
+      "used": false
+    },
+    {
+      "id": "otp_1790402640612_toit2l",
+      "email": "rehan.d.3011@gmail.com",
+      "otp": "284275",
+      "createdAt": 1790402640612,
+      "expiresAt": 1790403240612,
+      "used": true
+    },
+    {
+      "id": "otp_1790403499421_8dvqm2",
+      "email": "rehan.d.3011@gmail.com",
+      "otp": "113981",
+      "createdAt": 1790403499421,
+      "expiresAt": 1790404099421,
+      "used": true
+    },
+    {
+      "id": "otp_1790403799265_96l0rd",
+      "email": "rehan.d.3011@gmail.com",
+      "otp": "846087",
+      "createdAt": 1790403799265,
+      "expiresAt": 1790404399265,
+      "used": false
+    }
+  ]
+}
