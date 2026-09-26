@@ -3,11 +3,11 @@ import { getSessionFromCookies } from "@/lib/auth";
 import DashboardClient from "./DashboardClient";
 
 export default function DashboardPage() {
-  const session = getSessionFromCookies();
-
-  if (!session) {
+  const s = getSessionFromCookies();
+// session for making sure that user stay for the time assinged for him
+  if (!s) {
     redirect("/login?redirect=/dashboard");
   }
 
-  return <DashboardClient user={session} />;
+  return <DashboardClient user={s} />;
 }
