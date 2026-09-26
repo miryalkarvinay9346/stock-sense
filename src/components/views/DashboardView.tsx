@@ -136,7 +136,7 @@ export default function DashboardView({ onNavigate, currentUser }: DashboardView
       {actionFeedback && (
         <div className="p-4 bg-emerald-50 border border-emerald-200 rounded-xl text-emerald-800 text-sm flex items-center justify-between shadow-sm animate-fade-in">
           <div className="flex items-center gap-2">
-            <CheckCircle2 className="w-5 h-5 text-emerald-600" />
+            <CheckCircle2 className="w-5 h-5 text-emerald-200" />
             <span>{actionFeedback}</span>
           </div>
           <button
@@ -164,7 +164,7 @@ export default function DashboardView({ onNavigate, currentUser }: DashboardView
             </div>
           </div>
           <div className="mt-3">
-            <div className="text-2xl font-black text-slate-900">{kpis.totalProductsInStock}</div>
+            <div className="text-2xl font-black text-slate-600">{kpis.totalProductsInStock}</div>
             <p className="text-xs text-slate-500 mt-0.5">Active product lines</p>
           </div>
         </div>
@@ -293,7 +293,7 @@ export default function DashboardView({ onNavigate, currentUser }: DashboardView
 
           {/* Warehouse Filter */}
           <div>
-            <label className="block text-[11px] font-semibold text-slate-500 uppercase mb-1">
+            <label className="block text-[11px] font-semibold text-slate-300 uppercase mb-1">
               Warehouse / Location
             </label>
             <select
